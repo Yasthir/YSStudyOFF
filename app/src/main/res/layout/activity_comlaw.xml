@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comlaw">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="8sp"
+                android:text="The function of law is so that there is a higher power that can determine situations. \n  	- Laws are based on morals and values \n -Laws are enforceable             - Laws are established by parliament             - There will be consequences if we disobey.             There are ethics and morals in business although not enforced.              - Morals and values are based on what is good and bad behaviour              - The authority generally does not have jurisdiction Things like environmental and social responsibilities are not legally enforceable.              A business will act ethically although it is not legally obliged because investors may choose not to invest in a said business due to moral obligation."
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
